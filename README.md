@@ -34,8 +34,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: []()
-- Live Site URL: []()
+- Solution URL: [https://github.com/quielLovesLasagna/ping-coming-soon-page](https://github.com/quielLovesLasagna/ping-coming-soon-page)
+- Live Site URL: [https://quiel-ping-coming-soon-page.netlify.app/](https://quiel-ping-coming-soon-page.netlify.app/)
 
 ## My process
 
