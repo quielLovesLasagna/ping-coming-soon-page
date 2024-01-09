@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta
+			name="description"
+			content="This is a solution to the Ping coming soon page challenge on Frontend Mentor"
+		/>
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="32x32"
+			href="../images/favicon-32x32.png"
+		/>
+		<!-- FONT-AWESOME -->
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+		/>
+		<!-- SCSS -->
+		<link rel="stylesheet" href="./scss/main.scss" />
+		<!-- SCRIPT -->
+		<script defer type="module" src="./js/script.js"></script>
+		<title>Frontend Mentor | Ping coming soon page</title>
+	</head>
+	<body>
+		<header class="header">
+			<img src="../images/logo.svg" alt="PING logo" class="header__logo" />
+			<h1 class="header__heading-primary">
+				We are launching <span>soon!</span>
+			</h1>
+			<h2 class="header__heading-secondary">Subscribe and get notified</h2>
+		</header>
+		<main class="main">
+			<form action="#" class="main__form">
+				<div class="main__input-container">
+					<input
+						type="text"
+						class="main__input"
+						placeholder="Your email address..."
+					/>
+					<span class="error-message"></span>
+				</div>
+				<button type="submit" class="main__submit-btn">Notify Me</button>
+			</form>
+			<img
+				src="../images/illustration-dashboard.png"
+				alt="Dashboard illustration"
+				class="main__illustration"
+			/>
+		</main>
+		<footer class="footer">
+			<ul class="footer__items">
+				<li class="footer__item">
+					<a href="#" class="footer__link"
+						><i class="fa-brands fa-facebook-f footer__icon"></i>
+					</a>
+				</li>
+				<li class="footer__item">
+					<a href="#" class="footer__link"
+						><i class="fa-brands fa-twitter footer__icon"></i
+					></a>
+				</li>
+				<li class="footer__item">
+					<a href="#" class="footer__link"
+						><i class="fa-brands fa-instagram footer__icon"></i
+					></a>
+				</li>
+			</ul>
+			<p class="footer__text">&copy; Copyright Ping. All rights reserved.</p>
+		</footer>
+	</body>
+</html>
